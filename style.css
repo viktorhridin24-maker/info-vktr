@@ -65,18 +65,19 @@ button:hover {
 }
 
 .learn {
-    background-color: #2b2b2b; /* Цвет фона карточки (темный) */
-    border: 1px solid #444;    /* Тонкая рамка */
+    flex: 0 0 200px;         /* Задаем фиксированную ширину 200px, не растягиваться */
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 10px;
     padding: 20px;
-    width: 200px;              /* Фиксированная ширина */
-    border-radius: 10px;       /* Скругленные углы */
-    color: #fff;               /* Цвет текста */
     text-align: center;
-    transition: transform 0.2s; /* Плавный эффект при наведении */
+    color: #fff;
+    transition: transform 0.2s;
 }
 
+/* Эффект при наведении */
 .learn:hover {
-    transform: scale(1.05);    /* Легкое увеличение при наведении */
+    transform: scale(1.05);
 }
 
 .learn img {
@@ -111,10 +112,10 @@ button:hover {
     z-index: 10;
 }
 
-Listoftrainees {
-  display: flex;         /* Включает сетку */
-    flex-wrap: wrap;       /* Перенос на новую строку */
-    justify-content: center; /* Центрирование */
-    gap: 20px;             /* Расстояние между карточками */
-    margin: 40px auto;
+.Listoftrainees {
+    display: flex;           /* Включаем Flex-режим для горизонтального ряда */
+    flex-wrap: wrap;         /* Разрешаем перенос на новую строку, если места не хватит */
+    justify-content: center; /* Выравниваем карточки по центру */
+    gap: 20px;               /* Создаем отступы между карточками */
+    padding: 20px;
 }
