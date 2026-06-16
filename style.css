@@ -64,19 +64,36 @@ button:hover {
     max-width: 100%; /* Чтобы она не вылезала за пределы экрана на телефонах */
 }
 
+.learn {
+    background-color: #2b2b2b; /* Цвет фона карточки (темный) */
+    border: 1px solid #444;    /* Тонкая рамка */
+    padding: 20px;
+    width: 200px;              /* Фиксированная ширина */
+    border-radius: 10px;       /* Скругленные углы */
+    color: #fff;               /* Цвет текста */
+    text-align: center;
+    transition: transform 0.2s; /* Плавный эффект при наведении */
+}
+
+.learn:hover {
+    transform: scale(1.05);    /* Легкое увеличение при наведении */
+}
+
 .learn img {
-    max-width: 80%;      /* Картинка не будет шире 80% карточки */
-    height: auto;        /* Сохраняет пропорции, чтобы логотип не сплющило */
-    display: block;      /* Убирает лишние отступы снизу */
-    margin: 0 auto 10px; /* Центрирует и добавляет отступ от текста */
+    width: 50px;               /* Ограничиваем размер иконок */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.learn h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
 }
 
 .status {
-    border: 2px solid #000;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 20px 0 20px 0;
-    background: #f0f0f0;
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: 5px;
 }
 
 .wanted-photo {
@@ -95,13 +112,9 @@ button:hover {
 }
 
 Listoftrainees {
-    background-color: rgba(255, 255, 255, 0.95); /* Возвращаем чистый фон */
-    border: 2px solid #000;                     /* Твердая рамка */
-    border-radius: 20px 0 20px 0;               /* Твой фирменный стиль */
-    padding: 40px;
-    width: 600px;                               /* Фиксированный размер */
+  display: flex;         /* Включает сетку */
+    flex-wrap: wrap;       /* Перенос на новую строку */
+    justify-content: center; /* Центрирование */
+    gap: 20px;             /* Расстояние между карточками */
     margin: 40px auto;
-    color: #000;                                /* Черный текст */
-    text-align: center;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Легкая тень для объема */
-    position: relative;                         /* Чтобы всё внутри было под контролем */
+}
