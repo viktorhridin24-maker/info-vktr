@@ -1,15 +1,20 @@
 body {
-  font-family: 'Times New Roman';
-     /* Указываем путь к картинке */
-    background-image: url('https://pbs.twimg.com/media/GrI7kqqWMAA9u-v.jpg'); 
-    /* Растягиваем картинку на весь экран */
-    background-size: cover; 
-    /* Центрируем картинку по центру */
-    background-position: center; 
-    /* Фиксируем фон при прокрутке */
-    background-attachment: fixed; 
-    /* Отменяем повторение картинки */
-    background-repeat: no-repeat; 
+    background-image: url('image_e9c4ec.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Затемняющий слой */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* 0.6 — степень затемнения */
+    z-index: -1; /* Чтобы слой был ЗА текстом */
 
 }
 
