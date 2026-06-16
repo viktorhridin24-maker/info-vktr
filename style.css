@@ -96,8 +96,10 @@ wanted-photo {
 }
 
 .wanted-poster {
-    width: 250px;            /* Уменьшаем размер постера */
-    height: auto;            /* Сохраняем пропорции */
-    transform: rotate(96deg); /* Поворачиваем на 96 градусов */
-    transition: transform 0.3s ease; /* Плавный эффект при наведении */
+    position: absolute;
+    top: 20px;            /* Отступ сверху */
+    right: 20px;          /* Прижимаем вправо */
+    width: 200px;         /* Размер */
+    transform: rotate(96deg); 
+    z-index: 10;          /* Чтобы постер был выше текста */
 }
