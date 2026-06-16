@@ -35,14 +35,28 @@ button:hover {
 }
 
 .info-profile {
-    background-color: #404040; /* Почти белый фон с легкой прозрачностью */
-    border-radius: 20px 0 20px 0;               /* Твой стиль листочка */
-    padding: 40px;                              /* Чтобы текст не прилипал к краям */                            
-    border: 2px solid #000;                     /* Тонкая черная рамка для «твёрдости» */
-    color: #000;                                /* Черный текст */
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Легкая тень, чтобы «листочек» парил */
+    background-image: url('wanted-vintage-poster_225004-1071.png');
+    background-size: contain; /* Чтобы плакат полностью помещался */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /* Убираем старые рамки и тени, чтобы постер был главным */
+    border: none;
+    box-shadow: none;
+    
+    /* Важно: подгоняем размеры и паддинги под "окно" плаката */
+    width: 600px; 
+    height: 800px;
+    padding: 150px 100px; /* Отступы, чтобы текст попал внутрь рамки плаката */
+    margin: 40px auto;
+    color: #3e2723; /* Цвет шрифта под старину */
+    text-align: center;
+}
+
+.wanted-photo img {
+    width: 200px;
+    border: 5px solid #3e2723; /* Рамка в стиле постера */
+    margin-bottom: 20px;
 }
 
 .learn {
