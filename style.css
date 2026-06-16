@@ -93,3 +93,15 @@ button:hover {
     transform: rotate(96deg);
     z-index: 10;
 }
+
+Listoftrainees {
+    background-color: rgba(255, 255, 255, 0.95); /* Возвращаем чистый фон */
+    border: 2px solid #000;                     /* Твердая рамка */
+    border-radius: 20px 0 20px 0;               /* Твой фирменный стиль */
+    padding: 40px;
+    width: 600px;                               /* Фиксированный размер */
+    margin: 40px auto;
+    color: #000;                                /* Черный текст */
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Легкая тень для объема */
+    position: relative;                         /* Чтобы всё внутри было под контролем */
