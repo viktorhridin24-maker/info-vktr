@@ -119,3 +119,16 @@ button:hover {
     gap: 20px;               /* Создаем отступы между карточками */
     padding: 20px;
 }
+
+.footer-badge {
+    width: 350px;           /* Увеличили размер для хорошей видимости */
+    height: auto;
+    display: block;
+    margin: 0 auto;         /* Центрируем кнопку */
+    transition: transform 0.3s ease;
+}
+
+/* Добавим эффект, чтобы при наведении она становилась еще заметнее */
+.footer-badge:hover {
+    transform: scale(1.05); /* Легко увеличивается при наведении */
+}
