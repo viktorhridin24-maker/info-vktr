@@ -86,3 +86,18 @@ status {
     background: #fff;
     width: 200px; /* Например, сделай ее компактнее */
     max-width: 100%; /* Чтобы она не вылезала за пределы экрана на телефонах */
+
+}
+
+wanted-photo {
+    float: right;            /* Прижимает блок вправо */
+    margin-left: 20px;       /* Добавляет отступ от текста слева */
+    margin-bottom: 20px;
+}
+
+.wanted-poster {
+    width: 250px;            /* Уменьшаем размер постера */
+    height: auto;            /* Сохраняем пропорции */
+    transform: rotate(96deg); /* Поворачиваем на 96 градусов */
+    transition: transform 0.3s ease; /* Плавный эффект при наведении */
+}
