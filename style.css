@@ -33,3 +33,14 @@ button:hover {
     background-color: #787878;
     transform: scale(1.05); /* Кнопка чуть увеличивается */
 }
+
+.info-profile {
+    background-color: rgba(255, 255, 255, 0.95); /* Почти белый фон с легкой прозрачностью */
+    border-radius: 20px 0 20px 0;               /* Твой стиль листочка */
+    padding: 30px;                              /* Чтобы текст не прилипал к краям */
+    border: 2px solid #000;                     /* Тонкая черная рамка для «твёрдости» */
+    color: #000;                                /* Черный текст */
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Легкая тень, чтобы «листочек» парил */
+}
