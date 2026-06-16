@@ -92,7 +92,7 @@ button:hover {
 
 .status {
     font-size: 0.9em;
-    color: #aaa;
+    color: #cccccc; /* Светло-серый, хорошо читается на темном фоне */
     margin-top: 5px;
 }
 
