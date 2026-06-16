@@ -35,22 +35,16 @@ button:hover {
 }
 
 .info-profile {
-    background-image: url('wanted-vintage-poster_225004-1071.png');
-    background-size: contain; /* Чтобы плакат полностью помещался */
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    /* Убираем старые рамки и тени, чтобы постер был главным */
-    border: none;
-    box-shadow: none;
-    
-    /* Важно: подгоняем размеры и паддинги под "окно" плаката */
-    width: 600px; 
-    height: 800px;
-    padding: 150px 100px; /* Отступы, чтобы текст попал внутрь рамки плаката */
+    background-color: rgba(255, 255, 255, 0.95); /* Возвращаем чистый фон */
+    border: 2px solid #000;                     /* Твердая рамка */
+    border-radius: 20px 0 20px 0;               /* Твой фирменный стиль */
+    padding: 40px;
+    width: 600px;                               /* Фиксированный размер */
     margin: 40px auto;
-    color: #3e2723; /* Цвет шрифта под старину */
+    color: #000;                                /* Черный текст */
     text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Легкая тень для объема */
+    position: relative;                         /* Чтобы всё внутри было под контролем */
 }
 
 .wanted-photo img {
