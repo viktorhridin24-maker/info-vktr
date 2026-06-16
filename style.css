@@ -12,3 +12,19 @@ body {
     background-repeat: no-repeat; 
 
 }
+
+button {
+    background-color: #b0b0b0; /* Красный цвет */
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    border: none;
+    border-radius: 0px; /* Без скругления */
+    cursor: pointer;    /* Чтобы курсор менялся на «ручку» при наведении */
+    transition: 0.3s;   /* Плавная анимация */
+}
+
+/* Эффект при наведении мышкой */
+button:hover {
+    background-color: #787878;
+    transform: scale(1.05); /* Кнопка чуть увеличивается */
+}
