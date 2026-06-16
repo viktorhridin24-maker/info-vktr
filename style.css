@@ -77,29 +77,25 @@ button:hover {
     margin: 0 auto 10px; /* Центрирует и добавляет отступ от текста */
 }
 
-status {
+.status {
     border: 2px solid #000;
-    padding: 20px;
-    width: 200px;           /* Фиксируем ширину карточки */
-    text-align: center;     /* Центрируем текст внутри */
-    border-radius: 20px 0 20px 0; /* Твой любимый стиль «листочка» */
-    background: #fff;
-    width: 200px; /* Например, сделай ее компактнее */
-    max-width: 100%; /* Чтобы она не вылезала за пределы экрана на телефонах */
-
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #f0f0f0;
 }
 
-wanted-photo {
-    float: right;            /* Прижимает блок вправо */
-    margin-left: 20px;       /* Добавляет отступ от текста слева */
+.wanted-photo {
+    float: right;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
 .wanted-poster {
     position: absolute;
-    top: 20px;            /* Отступ сверху */
-    right: 20px;          /* Прижимаем вправо */
-    width: 200px;         /* Размер */
-    transform: rotate(96deg); 
-    z-index: 10;          /* Чтобы постер был выше текста */
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    transform: rotate(96deg);
+    z-index: 10;
 }
