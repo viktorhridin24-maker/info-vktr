@@ -1,0 +1,12 @@
+body {
+  font-family: 'Times New Roman';
+     /* Указываем путь к картинке */
+    background-image: url('https://pbs.twimg.com/media/GrI7kqqWMAA9u-v.jpg'); 
+    /* Растягиваем картинку на весь экран */
+    background-size: cover; 
+    /* Центрируем картинку по центру */
+    background-position: center; 
+    /* Фиксируем фон при прокрутке */
+    background-attachment: fixed; 
+    /* Отменяем повторение картинки */
+    background-repeat: no-repeat; 
