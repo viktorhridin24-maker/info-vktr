@@ -98,7 +98,9 @@ button:hover {
 .status {
     font-size: 0.9em;
     color: #cccccc; /* Светло-серый, хорошо читается на темном фоне */
+    border-radius: 20px 0 20px 0;
     margin-top: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 }
 
 .wanted-photo {
