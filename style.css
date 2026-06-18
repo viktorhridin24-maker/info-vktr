@@ -140,13 +140,18 @@ button:hover {
     transform: scale(1.05); /* Легко увеличивается при наведении */
 }
 
+.technic-wrapper {
+  display: flex;       /* Включает горизонтальную раскладку */
+  flex-wrap: wrap;     /* Позволяет переносить карточки на новую строку */
+  gap: 20px;           /* Добавляет отступ между твоими карточками */
+}
+
 .technic-container {
   border: 2px solid #000;
-    padding: 20px;
-    width: 200px;           /* Фиксируем ширину карточки */
-    text-align: center;     /* Центрируем текст внутри */
-    border-radius: 20px 0 20px 0; /* Твой любимый стиль «листочка» */
-    background: #fff;
-    width: 200px; /* Например, сделай ее компактнее */
-    max-width: 100%; /* Чтобы она не вылезала за пределы экрана на телефонах */
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px 0 20px 0; /* Твой фирменный стиль «листочка» */
+  background: #fff;
+  max-width: 100%;
 }
